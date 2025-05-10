@@ -1,0 +1,23 @@
+theme = "github_dark"
+
+[editor]
+scrolloff = 2
+scroll-lines = 2
+line-number = 'absolute'
+true-color = true
+color-modes = true
+bufferline = 'multiple'
+default-yank-register = '+'
+
+[keys.insert]
+"C-[" = "normal_mode"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.statusline]
+center = ["version-control"]
